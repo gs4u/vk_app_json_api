@@ -4,9 +4,12 @@
 If you use a paid version of our application for the social network VKontakte https://vk.com/app5792972, 
 you can get the latest data about the servers added to the application in JSON format. 
 This allows you to display information about your servers on your website as well.
-#### a simple example in the "example.php" file
+#### a PHP example in the "example.php" file
 In the first line replace the link 
 "$requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030';" with your link from the application.
+#### a JavaScrip example in the "example.html" file
+You can also use the JSONP technique, which allows you to get server data right on the simple
+HTML page in JavaScript. 
 
 # Русский
 ## JSON API для приложения в социальной сети ВКонтакте
