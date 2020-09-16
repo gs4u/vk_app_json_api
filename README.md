@@ -7,9 +7,15 @@ This allows you to display information about your servers on your website as wel
 #### a PHP example in the "example.php" file
 In the first line replace the link 
 "$requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030';" with your link from the application.
+
 #### a JavaScrip example in the "example.html" file
 You can also use the JSONP technique, which allows you to get server data right on the simple
 HTML page in JavaScript. 
+
+#### a Python example in the "example.py" file
+In the line 5 replace the link 
+"requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030'" with your link from the application.
+
 
 # Русский
 ## JSON API для приложения в социальной сети ВКонтакте
@@ -24,3 +30,7 @@ HTML page in JavaScript.
 #### Пример для использования в простом HTML в файле "example.html"
 Так же вам доступна возможность использовать технику JSONP, что позволяет получать данные о серверах прямо на простой
 HTML странице в JavaScript. 
+
+#### Пример для использования в Python в файле "example.py"
+В пятой строке замените ссылку 
+"requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030'" на вашу ссылку из приложения.
