@@ -2,8 +2,8 @@ import urllib.request
 import json
 
 
-requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030'
-server_id_to_print = 'all' # or ServerID as string to print only 1 server
+requestURL = 'https://www.gs4u.net/en/vkapp.json?id=g6738030' # URL from your VK APP
+server_id_to_print = 'all' # or ServerID as string: '123' to print only 1 server with id 123
 
 
 def print_server(srv):
